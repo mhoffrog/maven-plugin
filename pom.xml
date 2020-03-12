@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>io.onedev</groupId>
+		<groupId>com.github.mhoffrog.io.onedev</groupId>
 		<artifactId>parent</artifactId>
 		<version>1.0.4</version>
 	</parent>
@@ -101,6 +101,7 @@
 			<optional>true</optional>
 		</dependency>
 	</dependencies>
+	<!--
 	<repositories>
 		<repository>
 			<id>onedev</id>
@@ -117,6 +118,7 @@
 			</snapshots>
 		</repository>
 	</repositories>
+	-->
 	<properties>
 		<maven.version>3.2.1</maven.version>
 	</properties>
